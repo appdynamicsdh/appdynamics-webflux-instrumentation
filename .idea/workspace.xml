@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa233995-e510-4a7e-a707-136f4566d453" name="Default" comment="Updated url handling and removed custom correlation file that is not needed.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/appdynamics/HttpClientOperationsAsyncExitEnd.java" afterPath="$PROJECT_DIR$/src/main/java/com/appdynamics/HttpClientOperationsAsyncExitEnd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/appdynamics/HttpClientOperationsAsyncExitStart.java" afterPath="$PROJECT_DIR$/src/main/java/com/appdynamics/HttpClientOperationsAsyncExitStart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/appdynamics/SimpleChannelPoolNotifyHealthCheck.java" afterPath="$PROJECT_DIR$/src/main/java/com/appdynamics/SimpleChannelPoolNotifyHealthCheck.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/appdynamics/WebfluxConsumerInstrumentation.java" afterPath="$PROJECT_DIR$/src/main/java/com/appdynamics/WebfluxConsumerInstrumentation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-quotes/src/main/java/io/spring/workshop/stockquotes/Google.java" afterPath="$PROJECT_DIR$/stock-quotes/src/main/java/io/spring/workshop/stockquotes/Google.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-quotes/src/main/java/io/spring/workshop/stockquotes/IEXTradingClient.java" afterPath="$PROJECT_DIR$/stock-quotes/src/main/java/io/spring/workshop/stockquotes/IEXTradingClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-quotes/src/main/java/io/spring/workshop/stockquotes/QuoteHandler.java" afterPath="$PROJECT_DIR$/stock-quotes/src/main/java/io/spring/workshop/stockquotes/QuoteHandler.java" />
-    </list>
+    <list default="true" id="fa233995-e510-4a7e-a707-136f4566d453" name="Default" comment="Updated url handling and removed custom correlation file that is not needed." />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="HttpClientOperationsAsyncExitEnd.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HttpClientOperationsAsyncExitEnd.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/appdynamics/HttpClientOperationsAsyncExitEnd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+            <state relative-caret-position="136">
+              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -41,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebfluxConsumerInstrumentation.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WebfluxConsumerInstrumentation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/appdynamics/WebfluxConsumerInstrumentation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-123">
-              <caret line="40" column="49" lean-forward="false" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+            <state relative-caret-position="850">
+              <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -195,7 +186,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="580" />
     <option name="y" value="270" />
     <option name="width" value="1400" />
@@ -494,7 +485,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -779,14 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/appdynamics/WebfluxConsumerInstrumentation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-123">
-          <caret line="40" column="49" lean-forward="false" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/appdynamics/HttpClientOperationsAsyncExitStart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-225">
@@ -797,8 +780,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/appdynamics/HttpClientOperationsAsyncExitEnd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+        <state relative-caret-position="136">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/appdynamics/WebfluxConsumerInstrumentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
           <folding />
         </state>
       </provider>
