@@ -16,8 +16,8 @@ import java.util.List;
 public class HttpClientOperationsAsyncExitEnd extends AAsyncExitEnd {
     IReflector handler = null;
 
-    private static final String CLASS_TO_INSTRUMENT = "reactor.ipc.netty.channel.ChannelOperations";
-    private static final String METHOD_TO_INSTRUMENT = "onHandlerTerminate";
+    private static final String CLASS_TO_INSTRUMENT = "reactor.netty.channel.ChannelOperations";
+    private static final String METHOD_TO_INSTRUMENT = "onTerminate";
 
     public HttpClientOperationsAsyncExitEnd(){
         super();

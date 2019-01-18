@@ -14,8 +14,8 @@ import java.util.List;
 
 public class WebfluxConsumerInstrumentation extends AEntry {
 
-    private static final String CLASS_TO_INSTRUMENT = "reactor.ipc.netty.http.server.HttpServerOperations";
-    private static final String METHOD_TO_INSTRUMENT = "onHandlerStart";
+    private static final String CLASS_TO_INSTRUMENT = "reactor.netty.http.server.HttpServerOperations";
+    private static final String METHOD_TO_INSTRUMENT = "onInboundNext";
     private IReflector requestHeadersReflector = null;
     private IReflector header = null;
 

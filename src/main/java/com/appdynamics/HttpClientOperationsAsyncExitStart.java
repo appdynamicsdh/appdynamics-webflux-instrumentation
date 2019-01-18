@@ -22,8 +22,8 @@ import java.util.Map;
  */
 public class HttpClientOperationsAsyncExitStart extends AAsyncExitStart {
 
-    private static final String CLASS_TO_INSTRUMENT = "reactor.ipc.netty.tcp.TcpClient";
-    private static final String METHOD_TO_INSTRUMENT = "newHandler";
+    private static final String CLASS_TO_INSTRUMENT = "reactor.netty.tcp.TcpClient";
+    private static final String METHOD_TO_INSTRUMENT = "handler";
     private IReflector bridge = null;
     private IReflector activeURI = null;
 

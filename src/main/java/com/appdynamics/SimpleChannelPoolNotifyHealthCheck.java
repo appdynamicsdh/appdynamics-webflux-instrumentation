@@ -38,7 +38,7 @@ public class SimpleChannelPoolNotifyHealthCheck extends AGenericInterceptor{
 
         List<Rule> result = new ArrayList<>();
 
-        Rule.Builder bldr = new Rule.Builder("reactor.ipc.netty.http.client.HttpClientOperations");
+        Rule.Builder bldr = new Rule.Builder("reactor.netty.http.client.HttpClientOperations");
         bldr = bldr.classMatchType(SDKClassMatchType.MATCHES_CLASS).classStringMatchType(SDKStringMatchType.EQUALS);
         bldr = bldr.methodMatchString("preSendHeadersAndStatus").methodStringMatchType(SDKStringMatchType.EQUALS);
         result.add(bldr.build());

@@ -17,7 +17,11 @@ public class IEXTradingClient {
     private Logger logger = LoggerFactory.getLogger(getClass());
 
     public Mono<JsonNode> search(LinkedMultiValueMap<String, String> params) {
-
+       /* try {
+            throw new Exception("TEST");
+        }catch (Exception e){
+            logger.error("TEST",e);
+        }*/
         return WebClient.create().get()
                 .uri(builder -> builder.scheme("https")
                         .host("ws-api.iextrading.com")

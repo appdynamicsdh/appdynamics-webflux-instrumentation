@@ -112,7 +112,7 @@ public class QuoteHandler {
 	}
 
 	private Mono<? extends SearchResult> handleError(Throwable error) {
-		logger.error("Error occurs while processing request: ", error);
+		//logger.error("Error occurs while processing request: ", error);
 		return Mono.just(new SearchResult(error));
 	}
 
