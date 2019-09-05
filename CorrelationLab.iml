@@ -10,7 +10,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: com.appdynamics.agent:agent-api:4.5.12.26874" level="project" />
+    <orderEntry type="library" name="Maven: com.appdynamics.agent:agent-api:4.5.13.27526" level="project" />
     <orderEntry type="library" name="Maven: com.appdynamics:javaagent:4.5.11" level="project" />
     <orderEntry type="library" name="Maven: io.opentracing.contrib:opentracing-rxjava-1:0.1.1" level="project" />
     <orderEntry type="library" name="Maven: io.reactivex:rxjava:1.3.8" level="project" />
