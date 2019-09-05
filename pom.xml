@@ -1,52 +1,55 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.appdynamics</groupId>
-    <artifactId>CorrelationLab</artifactId>
+    <artifactId>AsynciSDK</artifactId>
     <version>1.2-SNAPSHOT</version>
 
 
     <dependencies>
 
-		<dependency>
-			<groupId>com.appdynamics.agent</groupId>
-			<artifactId>agent-api</artifactId>
-			<version>4.5.13.27526</version>
+<dependency>
+			<groupId>com.appdynamics</groupId>
+			<artifactId>jackson-annotations</artifactId>
+			<version>4.5.2</version>
 		</dependency>
-
+		<dependency>
+			<groupId>com.appdynamics</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>4.5.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.appdynamics</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>4.5.2</version>
+		</dependency>
 		<dependency>
 			<groupId>com.appdynamics</groupId>
 			<artifactId>javaagent</artifactId>
-			<version>4.5.11</version>
-		</dependency>
-
-		<dependency>
-			<groupId>io.opentracing.contrib</groupId>
-			<artifactId>opentracing-rxjava-1</artifactId>
-			<version>0.1.1</version>
+			<version>4.5.2</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.appdynamics</groupId>
 			<artifactId>appagent</artifactId>
-			<version>4.5.11</version>
+			<version>4.5.2</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.appdynamics</groupId>
 			<artifactId>appagent-boot</artifactId>
-			<version>4.5.11</version>
+			<version>4.5.2</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.appdynamics</groupId>
 			<artifactId>common-utils</artifactId>
-			<version>4.5.11</version>
+			<version>4.5.2</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.appdynamics</groupId>
 			<artifactId>singularity-log4j</artifactId>
-			<version>4.5.11</version>
+			<version>4.5.2</version>
 		</dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>

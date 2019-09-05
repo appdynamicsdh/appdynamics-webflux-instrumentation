@@ -1,12 +1,4 @@
-com\appdynamics\TCPServerIntermediaryThreadEnd.class
-com\appdynamics\TCPServerEntry.class
-com\appdynamics\TCPServerEntryInterceptorEnd.class
-com\appdynamics\TCPServerIntermediaryQueueProcessorStart.class
-com\appdynamics\TCPServerIntermediaryThreadStart.class
-com\appdynamics\TCPClientExit.class
-com\appdynamics\TCPClientSendRequest.class
-com\appdynamics\Test.class
-com\appdynamics\TCPClientObjectToBytes.class
-com\appdynamics\TCPServerEntryInterceptorStart.class
-com\appdynamics\TCPServerIntermediaryQueueProcessorEnd.class
-com\appdynamics\KafkaConsumerInstrumentation.class
+com\appdynamics\HttpClientOperationsAsyncExitStart.class
+com\appdynamics\WebfluxConsumerInstrumentation.class
+com\appdynamics\HttpClientOperationsAsyncExitEnd.class
+com\appdynamics\Cache.class
